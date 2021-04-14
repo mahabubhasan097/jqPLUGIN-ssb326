@@ -1,0 +1,51 @@
+/* wow js plugin*/
+.box{ 
+    height: 300px;
+    border: 1px solid black;
+}
+.box1{
+    background-color: burlywood;
+}
+.box2{
+    background-color: crimson;
+}
+/* curved text plugin  */
+#text1
+{
+    margin:           3.0em 0.0em;
+    overflow:         hidden;
+    font:             normal normal normal 2.0em/1.5 'Open Sans Light', sans-serif;
+    color:            #ffffff;
+    background-color: #3fafee;
+}
+/* ripple */
+.water{
+    background-image: url(../images/WallpaperStudio10-106182.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 800px;
+    position: relative;
+}
+.h1{
+    color: rgb(224, 230, 240);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%) ;
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+}
+
+/* particle */
+.particle{
+    margin-top: 5px;
+    background-image: url(../images/WallpaperStudio10-102460.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+}
